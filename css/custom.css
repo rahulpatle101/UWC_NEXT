@@ -1,0 +1,71 @@
+/*@import url(http://fonts.googleapis.com/css?family=Nunito);*/
+@import url(http://fonts.googleapis.com/css?family=Comfortaa);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+#cardsDiv{
+	border:1px solid #838383; 
+	background-color: rgb(236,236,236);
+	height:550px;
+	width:320px; 
+	margin-right:10px;
+	text-align:left; 
+	padding-right:10px;
+	font-family: 'Lato', sans-serif;
+	position:relative;
+	display:block;
+	float:left;
+
+}
+
+
+
+/*initiative detail styl*/
+#InitDetail{
+	padding-left:10px;
+	height:240px;
+}
+
+
+.navbar-inverse{
+background-color:#EAB05E;
+border-color:#EAB05E;
+}
+
+/*carousel arrows style*/
+.arrows{
+	top:50%;
+	position:absolute;
+	display: inline-block;
+	z-index:5;
+}
+
+/*background1stCarousel{}*/
+.carousel .item{
+	background-color: #B2DFDB;
+	height:800px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+
+	background-color: rgba(57,57,57,0.87) !important;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color:#D24858;
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Comfortaa', cursive;
+	font-size:15px;
+	font-weight:bold;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	color:#00CDCD;
+	background-color: rgba(57,57,57,0.87) !important;
+
+}
+@media (min-width: 768px){
+
+.navbar-wrapper .navbar{
+	border-radius:0;
+
+}
+}
